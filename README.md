@@ -6,12 +6,10 @@ CUDA：11.6.134<br />
 cuDNN：8.4.0<br />
 keras：2.9.0<br />
 tensorflow：2.9.1<br /><br />
-
 注意：<br />
 项目内目录中两个文件夹：<br />
 1./dataset：保存数据集<br />
 2./save_model：保存训练好的模型<br /><br />
-
 Keras有三种构建model的方式：<br />
 1.Sequential序列模型<br />
 2.函数式API构建模型<br />
