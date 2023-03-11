@@ -15,7 +15,8 @@ class MLP(Model):
         self.drop_1 = Dropout(rate = 0.5)
         self.drop_2 = Dropout(rate = 0.5)
 
-        # ¶¨ÒåInput²ãÎ¬¶È£¬Ê¹Keras¿ò¼ÜÄÜ¹»×Ô¶¯ÍÆ¶Ï¸÷²ãÎ¬¶ÈĞÅÏ¢
+        # å®šä¹‰Inputå±‚ç»´åº¦ï¼Œä½¿Kerasæ¡†æ¶èƒ½å¤Ÿè‡ªåŠ¨æ¨æ–­å„å±‚ç»´åº¦ä¿¡æ¯
+        # è¿™æ ·æˆ‘ä»¬è°ƒç”¨model.summary()å°±ä¸ä¼šè¾“å‡ºmultipleäº†
         self.input_layer = Input((28,28,))
         self.out = self.call(self.input_layer)
 
